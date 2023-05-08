@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square1 {
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 15px;
+  background: rgb(0, 120, 212);
+  background: linear-gradient(
+    129deg,
+    rgba(0, 120, 212, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 2px solid white;
+}
+.square2 {
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 120, 212);
+  background: linear-gradient(
+    34deg,
+    rgba(0, 120, 212, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-bottom-left-radius: 15px;
+  border: 2px solid white;
+}
+.square3 {
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 120, 212);
+  background: linear-gradient(
+    218deg,
+    rgba(0, 120, 212, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-top-right-radius: 15px;
+  border: 2px solid white;
+}
+.square4 {
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 120, 212);
+  background: linear-gradient(
+    309deg,
+    rgba(0, 120, 212, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-bottom-right-radius: 15px;
+  border: 2px solid white;
+}
